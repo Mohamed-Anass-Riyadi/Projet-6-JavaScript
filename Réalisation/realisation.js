@@ -1,17 +1,20 @@
+// declaration des variables 
 var btn;
 var output;
 var number;
 var nombreDeviner;
 var attempt;
 
+ // entrer: saiser 
 
  btn = document.getElementById('btn');
- output = document.getElementById('outputtext');
+ output = document.getElementById('text');
  number = Math.floor(Math.random() * 100);
  console.log(number)
  attemptOutPut = document.getElementById('tentative')
  attempt =10;
-
+ 
+ // traitement 
 
 btn.addEventListener('click', function(){
     attempt--;
@@ -39,6 +42,13 @@ btn.addEventListener('click', function(){
         output.innerHTML = "C'est raté !!"
         attemptOutPut.innerHTML= "0-tentative"
     }
+
+
+
+
+
+  
+  
 
 });
 
