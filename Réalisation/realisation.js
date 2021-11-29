@@ -21,7 +21,7 @@ button.addEventListener('click', function(){
         attemptOutPut.innerHTML=attempt +"-tentative"
         if ( nombreDeviner == number){
             if (nombreDeviner == number && attempt >=8 ) { 
-                output.innerHTML = 'Bravo, vous etes un Génie !!!'
+                output.innerHTML = 'Bravo, vous avez ganiez !'
                 }else{
                 if(nombreDeviner == number && attempt >=3){
                     output.innerHTML ='Félicitations, vous avez gagné après , ' +attempt +" tentative" 
@@ -30,15 +30,15 @@ button.addEventListener('click', function(){
                 
           } else{
             if ( nombreDeviner < number){
-                output.innerHTML = "le nombre que vous avez choisir est plus petit"
+                output.innerHTML = "le nombre que vous avez choisir est plus petit !"
             }
             else {
-              output.innerHTML = "le nombre que vous avez choisir est plus grand"
+              output.innerHTML = "le nombre que vous avez choisir est plus grand !"
             }
         
           }
     }else {
-        output.innerHTML = "c'est rate"
+        output.innerHTML = "Vous avez perdu !!"
         attemptOutPut.innerHTML= "0-tentative"
     }
 
