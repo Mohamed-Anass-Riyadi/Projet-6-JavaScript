@@ -1,0 +1,41 @@
+
+html{
+    background-color: #000000;
+}
+#container{
+    background-color: #970CFA;
+    height: 300px;
+    width: 850px;
+    margin-top: 100px;
+    text-align: center;
+}
+p{
+    color: #ffff;
+    font-size: 20px;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.FlexContainer div {
+    width: 750px;
+    height: 275px;
+   
+    
+}
+#btn{
+    background-color: #4600E3;
+    color: #ffff;
+    border-radius: 2px;
+    /* border:rgb(72, 78, 80) ; */
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+input{
+    height: 25px;
+    border-radius: 2px;
+}
