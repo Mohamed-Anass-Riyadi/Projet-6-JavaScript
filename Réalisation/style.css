@@ -1,5 +1,5 @@
 
-html{
+body{
     background-color: #000000;
 }
 #container{
@@ -13,18 +13,18 @@ p{
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-.FlexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;    
-}
 
-.FlexContainer div {
+.divcontainer {
     width: 750px;
     height: 275px;
    
     
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
 }
 #btn{
     background-color: #4600E3;
