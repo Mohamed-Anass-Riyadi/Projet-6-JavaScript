@@ -1,13 +1,13 @@
 // declaration des variables 
 var btn;
-var output;
+var sortie;
 var nombre;
 var NombreDeviner;
 
 
  // entrer: saiser 
  btn = document.getElementById('btn');
- output = document.getElementById('outputtext');
+ sortie = document.getElementById('sortietext');
  nombre = Math.floor(Math.random() * 100);
  
  // traitement 
@@ -16,13 +16,13 @@ btn.addEventListener('click', function(){
   
   NombreDeviner = document.getElementById('userInput').value;
   if (NombreDeviner == nombre){
-    output.innerHTML = 'Correct'
+    sortie.innerHTML = 'Correct'
   } else{
     if (NombreDeviner < nombre){
-        output.innerHTML = "le nombre que vous avez choisir est plus petit"
+        sortie.innerHTML = "le nombre que vous avez choisir est plus petit"
     }
     else {
-      output.innerHTML = "le nombre que vous avez choisir est plus grand"
+      sortie.innerHTML = "le nombre que vous avez choisir est plus grand"
     }
 
   } 
